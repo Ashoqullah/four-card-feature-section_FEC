@@ -91,3 +91,34 @@ img {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* Descktop Design */
+@media (min-width: 1440px) {
+  #header {
+    width: 520px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+  .bold {
+    font-weight: 600;
+  }
+  #cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    height: 250px;
+    width: 350px;
+    margin: 25px 15px;
+    padding: 25px 30px;
+  }
+  .box p {
+    width: 250px;
+  }
+  img {
+    width: 65px;
+    margin-top: 45px;
+  }
+}
